@@ -48,19 +48,22 @@ body {
   font-weight: 400;
 }
 
-.main-contetnt,
+
 .home__bottom {
-  width: 100%;
   padding: 0 375px;
   margin: 0 auto;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
   align-items: center;
   margin-top: 40px;
   margin-bottom: 90px;
+  column-gap: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -92,7 +95,6 @@ a {
 }
 
 .menu {
-  /* width: 100%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,18 +115,23 @@ a {
 
 .menu__features_img {}
 
-main {
+.main {
+  width: 100%;
   margin-bottom: 275px;
 }
 
 .home {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
 .home__text {
+  max-width: 522px;
   margin-bottom: 37px;
 }
 
